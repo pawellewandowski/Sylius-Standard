@@ -1,0 +1,8 @@
+app:
+    ui:
+        product:
+            color:
+                label: Kolor
+                red: Czerwony
+                green: Zielony
+                blue: Niebieski

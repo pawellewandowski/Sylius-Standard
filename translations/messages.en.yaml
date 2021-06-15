@@ -1,0 +1,8 @@
+app:
+    ui:
+        product:
+            color:
+                label: Color
+                red: Red
+                green: Green
+                blue: Blue

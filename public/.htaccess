@@ -66,8 +66,3 @@ DirectoryIndex index.php
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
-
-<IfModule mod_headers.c>
-    # Prevent clickjacking
-    Header set X-Frame-Options SAMEORIGIN
-</IfModule>

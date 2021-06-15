@@ -1,0 +1,7 @@
+sylius_ui:
+    events:
+        sylius.shop.product.show.right_sidebar:
+            blocks:
+                addresses:
+                    template: "App/Shop/Product/Show/_color.html.twig"
+                    priority: 21
