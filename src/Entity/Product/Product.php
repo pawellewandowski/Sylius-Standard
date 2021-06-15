@@ -15,9 +15,6 @@ use Sylius\Component\Product\Model\ProductTranslationInterface;
  */
 class Product extends BaseProduct
 {
-    /**
-     * @ORM\Column(type="string", length=5, nullable=true)
-     */
     private $color;
 
     protected function createTranslation(): ProductTranslationInterface
@@ -37,7 +34,7 @@ class Product extends BaseProduct
         return $this;
     }
 
-    public function getColorTranslation()
+    public function getColorTranslation(): string
     {
         return ProductColorEnum::getValues()[$this->color];
     }

@@ -6,7 +6,6 @@
                                       http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
     <entity name="App\Entity\Product\Product" table="sylius_product">
-
+        <field name="color" column="color" type="string" length="5" nullable="true"/>
     </entity>
-
 </doctrine-mapping>
