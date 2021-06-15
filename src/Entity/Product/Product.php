@@ -6,12 +6,10 @@ namespace App\Entity\Product;
 
 use App\Enum\Product\ProductColorEnum;
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\ORM\Mapping\MappedSuperclass;
 use Sylius\Component\Core\Model\Product as BaseProduct;
 use Sylius\Component\Product\Model\ProductTranslationInterface;
 
 /**
- * @MappedSuperclass
  * @ORM\Entity
  * @ORM\Table(name="sylius_product")
  */
